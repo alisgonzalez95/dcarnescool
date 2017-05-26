@@ -6,7 +6,7 @@ jQuery(function($) {
   $('#contact-map').prettyMaps({
 	  address: 'Carnes en Quito D´carnes Cool, Rita Lecumberry, Quito, Ecuador',
 	  image: 'images/map-icon.png',
-	  hue: '#fdb000',
+	  hue: '#661a1b',
 	  saturation: -40,
 	  zoom: 18,
 	  panControl: true,
