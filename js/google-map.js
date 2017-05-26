@@ -4,11 +4,11 @@ jQuery(function($) {
   /* --------------------------- 17 - Google prettyMaps --------------------*/
   /* ---------------------------------------------------------------------- */
   $('#contact-map').prettyMaps({
-	  address: '121 King Street, Melbourne Victoria 3000 Australia',
+	  address: 'Carnes en Quito D´carnes Cool, Rita Lecumberry, Quito, Ecuador',
 	  image: 'images/map-icon.png',
 	  hue: '#fdb000',
 	  saturation: -40,
-	  zoom: 14,
+	  zoom: 18,
 	  panControl: true,
 	  zoomControl: true,
 	  mapTypeControl: true,
@@ -17,4 +17,4 @@ jQuery(function($) {
 	  overviewMapControl: true,
 	  scrollwheel: false
   });
-});  
+});
