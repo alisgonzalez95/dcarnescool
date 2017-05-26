@@ -1213,7 +1213,7 @@ section > .container-fluid {
 
 
 /***************Back to top btn********************/
-.back-to-top {position: fixed;bottom: 15px;right: 10px;border-radius: 4px;text-decoration: none;color: #fff;background-color:#f28b1c;font-size: 18px;padding:0.25em 0.8em;display: none;}
+.back-to-top {position: fixed;bottom: 15px;right: 10px;border-radius: 4px;text-decoration: none;color: #fff;background-color:#c1141e;font-size: 18px;padding:0.25em 0.8em;display: none;}
 .back-to-top:hover {background:#585858;color:#fff;}
 
 /**
@@ -1397,7 +1397,7 @@ text-transform: uppercase;
 
 .header-nav .navbar .nav li.current a,
 .header-nav .navbar .nav li a:hover {
-	color: #f28b1c;
+	color: #c1141e;
 }
 
 .navbar.navbar-scrolled .nav > li > a {
@@ -1419,7 +1419,7 @@ text-transform: uppercase;
     top: 50px;
     transition: all 0.3s ease-in-out 0s;
 	z-index: -1111;
-	border-top: 2px solid #f28b1c;
+	border-top: 2px solid #c1141e;
 	display: block;
 }
 
@@ -2751,7 +2751,7 @@ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
  * -----------------------------------------------
 */
 .footer {
-	background: #4B3D37;
+	background: #555;
 	padding-top: 45px;
 }
 
