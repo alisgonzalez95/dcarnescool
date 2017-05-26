@@ -1,0 +1,72 @@
+/* --------------------------------------
+@Author: ThemeMascot
+@URL: http://themeforest.net/user/ThemeMascot
+
+Custom Style for FlexSlider
+----------------------------------------- */
+ #home .flexslider .slides li h1, 
+#home .flexslider .slides li p, 
+#home .flexslider .slides li .links, 
+#home .flexslider .slides li .thumb {
+	position:absolute;
+}
+
+#home .flexslider .slides li h1 { 
+	left:0;
+	top:-100%; 
+	opacity:0;
+	color:#414146;
+	background-color: rgba(255,255,255,0.8);
+	padding: 14px 20px 15px;
+	z-index: 10;
+}
+
+#home .flexslider .slides li p { 
+	left:-100%; 
+	opacity:0; 
+	color:#fff;
+	background-color: rgba(51,51,51,0.8);
+	padding: 10px 20px;
+	z-index: 10;
+}
+
+#home .flexslider .slides li .links { left:0; bottom:-50%; opacity:0; z-index:50}
+
+#home .flexslider .slides li .thumb { right:-100%; opacity:0; z-index:0; }
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+@media only screen and (max-width : 992px) {
+	
+  #home .flexslider .slides li .thumb {
+	  max-width: 40%;
+  }
+  #home .flexslider .slides li .thumb img{
+	  max-width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width : 768px) {
+  #home .flexslider .slides li h1 {
+	  font-size:25px;
+	  line-height:29px;
+  
+  }
+}
+ 
+@media only screen and (max-width : 480px) {
+  #home .flexslider .slides li p {
+	  display: none;
+  }
+  #home .flexslider .slides li .thumb {
+	  top:38% !important;
+  }
+  .flex-direction-nav {
+	  visibility: hidden;
+  }
+
+}
