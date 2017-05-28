@@ -2751,8 +2751,8 @@ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
  * -----------------------------------------------
 */
 .footer {
-	background: #555;
-	padding-top: 45px;
+	background: #777;
+	padding-top: 20px;
 }
 
 .footer .widget {
@@ -2835,7 +2835,7 @@ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
   display: inline-block;
 }
 .footer	.footer-bottom {
-	background: #403735;
+	background: #000000;
 	padding: 40px 0;
 }
 
@@ -4400,6 +4400,9 @@ text-shadow: none;
 	}
 	.glyph .fs1 {
 		font-size: 2em;
+	}
+	.margen {
+		margin-top: 32px;
 	}
 
 /*!
