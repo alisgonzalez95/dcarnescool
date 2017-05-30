@@ -551,6 +551,14 @@ blockquote {
  	border-color: #333;
 }
 
+.cotizaciondetalle,
+.cotizaciondetalle[disabled],
+.cotizaciondetalle[disabled]:focus {
+	background-color: #white;
+	color: #fff;
+	padding:10px 20px;
+}
+
 .btn-default,
 .btn-default[disabled],
 .btn-default[disabled]:focus {
@@ -558,6 +566,7 @@ blockquote {
 	color: #8e0b20;
 	padding:10px 20px;
 }
+
 
 .btn-border {
 	background: none;
@@ -3019,7 +3028,6 @@ COLOR CODE: #8b2b11
 .pagination > li > a:hover, .pagination li > a:focus, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
 	background-color: #8b2b11;
 }
-
 
 .icon-box.food i, .icon-box.food .title,
 .popular-menu-item h5,
