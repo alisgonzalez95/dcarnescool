@@ -554,8 +554,8 @@ blockquote {
 .btn-default,
 .btn-default[disabled],
 .btn-default[disabled]:focus {
-	background-color: #333;
-	color: #fff;
+	background-color: #white;
+	color: #8e0b20;
 	padding:10px 20px;
 }
 
@@ -1748,29 +1748,33 @@ text-transform: uppercase;
 .food-menus .title {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	color: #8e0b20;
 }
 
 .food-menus .price {
 	border: solid 2px #c6c6c6;
-    color: #c6c6c6;
+    color: #8e0b20;
     float: right;
     font-weight: 800;
 }
 
 .food-menus .menu-item:hover .price {
-    background-color: #8b2b11;
-	border: solid 2px #8b2b11;
+    background-color: #8e0b20;
+	border: solid 2px #c6c6c6;
     color: #fff;
 }
 
 .food-menus .menu-item:hover .btn-border {
     background-color: #F28B1C;
-	border: 2px solid transparent;
+	border: 2px solid transparent color:#8e0b20;
 	color: #fff;
 }
-.food-menus .menu-item .btn-default{border: solid 2px #f28b1c;}
-.food-menus .menu-item:hover .btn-default { border: solid 2px #c6c6c6;
-    color: #c6c6c6; background: transparent;}
+.food-menus .menu-item .btn-default{border: solid 2px #c6c6c6;}
+.food-menus .menu-item:hover .btn-default {
+		background-color: #8e0b20;
+	border: solid 2px #c6c6c6;
+		color: #fff;
+}
 .masonry-filters {
 	text-align: center;
 }
@@ -2964,7 +2968,7 @@ COLOR CODE: #f28b1c
 .steak-of-the-week .price,
 .icon-box:hover .btn, .featured-menu:hover .icon-box .btn,
 .borwser-food .dropdown-menu {
-	background-color: #c1141e;
+	background-color: #white;
 }
 .tp-bullets.preview4 .bullet:hover, .tp-bullets.preview4 .bullet.selected{background-color: #d15d02 !important;border-color: #d15d02 !important;}
 .tp-bullets.preview4 .bullet.selected {
