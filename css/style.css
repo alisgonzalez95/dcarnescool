@@ -672,7 +672,8 @@ section > .container-fluid {
   background-position: center center;
 }
 .divider.bg6 {
-    background-image: url("../images/bg/gallery_heading_bg.jpg");
+    /*background-image: url("../images/bg/gallery_heading_bg.jpg");*/
+    background-color:#000;
     -webkit-background-size: cover;
 	   -moz-background-size: cover;
 	     -o-background-size: cover;
