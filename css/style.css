@@ -118,12 +118,6 @@ margin-left: 20px;
 .flaticon-cake33:before {
 	content: "\e005";
 }
-.sinpaddingtop{
-    padding-top:1px!important;
-}
-.sinpaddingbottom{
-    padding-bottom:1px!important;
-}
 .flaticon-carrot1:before {
 	content: "\e006";
 }
@@ -867,7 +861,7 @@ section > .container-fluid {
  */
 .icon-box {
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	margin-top: 30px;
 }
 
@@ -1528,10 +1522,10 @@ text-transform: uppercase;
 }
 
 .tparrows.preview1:after{opacity: 0.8; font-size:42px; background: rgba(0,0,0,0.0);  font-weight: bold;}
-.tp-bullets.preview1 .bullet:hover, .tp-bullets.preview1 .bullet.selected{background-color: #c1141e !important;border-color: #c1141e !important;}
+.tp-bullets.preview1 .bullet:hover, .tp-bullets.preview1 .bullet.selected{background-color: #d15d02 !important;border-color: #d15d02 !important;}
 .tp-bullets.preview1 .bullet.selected {
-	background-color: #c1141e !important;
-	border-color: #c1141e !important;
+	background-color: #d15d02 !important;
+	border-color: #d15d02 !important;
 }
 
 /**
