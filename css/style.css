@@ -1528,10 +1528,10 @@ text-transform: uppercase;
 }
 
 .tparrows.preview1:after{opacity: 0.8; font-size:42px; background: rgba(0,0,0,0.0);  font-weight: bold;}
-.tp-bullets.preview1 .bullet:hover, .tp-bullets.preview1 .bullet.selected{background-color: #d15d02 !important;border-color: #d15d02 !important;}
+.tp-bullets.preview1 .bullet:hover, .tp-bullets.preview1 .bullet.selected{background-color: #c1141e !important;border-color: #c1141e !important;}
 .tp-bullets.preview1 .bullet.selected {
-	background-color: #d15d02 !important;
-	border-color: #d15d02 !important;
+	background-color: #c1141e !important;
+	border-color: #c1141e !important;
 }
 
 /**
