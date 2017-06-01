@@ -118,6 +118,12 @@ margin-left: 20px;
 .flaticon-cake33:before {
 	content: "\e005";
 }
+.sinpaddingtop{
+    padding-top:1px!important;
+}
+.sinpaddingbottom{
+    padding-bottom:1px!important;
+}
 .flaticon-carrot1:before {
 	content: "\e006";
 }
