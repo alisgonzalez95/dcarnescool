@@ -97,7 +97,7 @@
                 <div class="container">
                     <div class="row text-left">
                         <div class="col-md-4 margin-top-50 wow fadeInRight animated text-center" data-wow-delay=".4s" data-wow-duration="1.5s" data-wow-offset="10"> <img class="img-responsive about-img" src="images/certificaciones-dcarnescool.jpg" alt=""> </div>
-                        <div class="col-md-8 wow fadeInLeft animated" data-wow-delay=".4s" data-wow-duration="1.5s" data-wow-offset="10">
+                        <div class="col-md-7 wow fadeInLeft animated" data-wow-delay=".4s" data-wow-duration="1.5s" data-wow-offset="10">
                             <h3 class="head-block">La mejor calidad desde 1996</h3>
                             <p>
                                 D´Carnes Cool comenzó sus operaciones en 1996, tenemos con un equipo de quince personas que nos
@@ -111,7 +111,7 @@
             </section>
             <section>
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
@@ -364,5 +364,11 @@
     <script type="text/javascript" src="js/isotope/isotope.min.js"></script>
     <!-- Custom | common script for all pages -->
     <script src="js/custom.js"></script>
+    <script type="text/javascript">
+        // interval is in milliseconds. 1000 = 1 second - so 1000 * 10 = 10 seconds
+        $('.carousel').carousel({
+            interval: 1000 * 3
+        });
+    </script>
 </body>
 </html>
